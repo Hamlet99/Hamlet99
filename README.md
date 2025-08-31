@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/Hamlet99/Hamlet99/master/git_banner.png)
+![banner](https://raw.githubusercontent.com/Hamlet99/Hamlet99/master/resources/git_banner_narrow.png)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&pause=150&color=00C031&multiline=true&repeat=false&width=1020&height=70&lines=Hi+there!+I'm+Hamlet;I+apply+computational+techniques+and+AI+to+model+and+analyze+biochemical+systems)](https://git.io/typing-svg)
 
 <p align="center">
