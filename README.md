@@ -15,15 +15,15 @@
 
 <p align="center">
     <a href="https://github.com/Hamlet99?tab=followers" target="_blank"><img alt="Updates" src="https://img.shields.io/badge/--000000?style=flat-square&logo=RSS&logoColor=white"></a>
-    <a href="https://github.com/Hamlet99" target="_blank"><img alt="Hamlet99" src="https://badges.pufler.dev/visits/alwinw/alwinw?logo=GitHub&label=visits&color=success&logoColor=white&style=flat-square"/></a>
-    <a href="https://github.com/Hamlet99/Hamlet99" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/alwinw/alwinw?label=profile%20updated&style=flat-square"></a>
+    <a href="https://github.com/Hamlet99" target="_blank"><img alt="Hamlet99" src="https://badges.pufler.dev/visits/Hamlet99/Hamlet99?logo=GitHub&label=visits&color=success&logoColor=white&style=flat-square"/></a>
+    <a href="https://github.com/Hamlet99/Hamlet99" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/Hamlet99/Hamlet99?label=profile%20updated&style=flat-square"></a>
 </p>
 
 <details>
 <summary>Click for GitHub Stats</summary>
 <p align="center">
-    <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=alwinw&show_icons=true&hide=issues&icon_color=000000&hide_border=true&title_color=5391FE&text_color=555">
+    <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Hamlet99&show_icons=true&hide=issues&icon_color=000000&hide_border=true&title_color=5391FE&text_color=555">
     <br>
-    <img alt = "Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alwinw&hide=html,&hide_border=true&title_color=5391FE&text_color=555"
+    <img alt = "Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamlet99&hide=html,&hide_border=true&title_color=5391FE&text_color=555"
 </p>
 </details>
