@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="HamletProtein" viewBox="0 0 1280 640">
+    <defs>
+        <style>
+            .name-outline {
+                fill: none;
+                stroke: #d1e174;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 4px;
+            }
+
+            .name-blank {
+                fill: transparent;
+                stroke: transparent;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 8px;
+            }
+        </style>
+    </defs>
+
+    <rect id="name-bg-0" y="0" width="1280" height="640" fill="#015410" />
+    <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#d1e174" stroke="#d1e174" />
+    <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#c2d73a" stroke="#c2d73a" />
+    <rect id="name-bg-1" y="0" width="1280" height="640" fill="#015410" />
+
+    <path id="H" class="name-outline" d="M300 220 V 390 M 360 220 V 390 M 300 305 H 360" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="a" class="name-outline" d="M430 305 a 30 30 0 1 1 0 1 V 390" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="m" class="name-outline" d="M480 270 V 390 M 480 300 C 500 270, 520 270, 540 300 V 390 M 540 300 C 560 270, 580 270, 600 300 V 390" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="l" class="name-outline" d="M640 220 V 390" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="e" class="name-outline" d="M750 305 H 690 C 680 270, 720 250, 750 280 A 40 40 0 0 1 695 390" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="t" class="name-outline" d="M800 220 V 390 M 770 270 H 830" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+
+    <animate href="#name-bg-1" dur="0.1s" begin="0;graphics.click" fill="freeze" id="name" />
+    <animate href="#H" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze" begin="name.begin" />
+    <animate href="#a" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze" begin="name.begin+0.2s" />
+    <animate href="#m" attributeName="stroke-dashoffset" from="1" to="0" dur="1.2s" fill="freeze" begin="name.begin+0.4s" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="1" to="0" dur="0.8s" fill="freeze" begin="name.begin+0.8s" />
+    <animate href="#e" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze" begin="name.begin+1s" />
+    <animate href="#t" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze" begin="name.begin+1.2s" id="name_outline" />
+
+    <g id="Hamlet-fill" class="name-blank">
+        <path d="M300 220 V 390 M 360 220 V 390 M 300 305 H 360" />
+        <path d="M430 305 a 30 30 0 1 1 0 1 V 390" />
+        <path d="M480 270 V 390 M 480 300 C 500 270, 520 270, 540 300 V 390 M 540 300 C 560 270, 580 270, 600 300 V 390" />
+        <path d="M640 220 V 390" />
+        <path d="M750 305 H 690 C 680 270, 720 250, 750 280 A 40 40 0 0 1 695 390" />
+        <path d="M800 220 V 390 M 770 270 H 830" />
+    </g>
+
+    <animate href="#Hamlet-fill" attributeName="fill" values="transparent;#d1e174" dur="0.25s" fill="freeze" begin="name_outline.end+0.1s" />
+    <animate href="#Hamlet-fill" attributeName="stroke" values="transparent;#d1e174" dur="0.25s" fill="freeze" begin="name_outline.end+0.1s" id="name_fill" />
+
+    <animate href="#H" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    <animate href="#a" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    <animate href="#m" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    <animate href="#l" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    <animate href="#e" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    <animate href="#t" attributeName="opacity" from="1" to="0" dur="0.1s" fill="freeze" begin="name_fill.end" />
+    
+    <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#91a601" stroke-width="0px" />
+    <animate href="#name-line" attributeName="stroke-width" from="0px" to="8px" begin="name_fill.end+1s" dur="0.5s" fill="freeze" id="diagonal_line" />
+    <animateMotion href="#sky_left" dur="0.1s" begin="diagonal_line.end" fill="freeze" path="M0,0,-157.5259,640" />
+    <animateMotion href="#sky_right" dur="0.1s" begin="diagonal_line.end" fill="freeze" path="M0,0,157.5259,-640" />
+    <animate href="#name-bg-1" attributeName="opacity" from="1" to="0" dur="0.1s" begin="diagonal_line.end+0.2s" fill="freeze" id="sky_revealed"/>
+
+    <animate href="#Hamlet-fill" attributeName="opacity" from="1" to="0" dur="2s" begin="sky_revealed.end+1s" fill="freeze" id="name_disappear" />
+    <animate href="#name-line" attributeName="stroke-width" from="8px" to="0px" begin="sky_revealed.end+1s" dur="1s" fill="freeze" />
+
+    <g id="protein-unfolded" opacity="0" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="440,320 480,350 520,320 560,350 600,320 640,350 680,320 720,350 760,320 800,350 840,320" fill="none" stroke="#3b842b" stroke-width="3"/>
+        <circle cx="440" cy="320" r="6" fill="#015410"/>
+        <circle cx="480" cy="350" r="6" fill="#015410"/>
+        <circle cx="520" cy="320" r="6" fill="#015410"/>
+        <circle cx="560" cy="350" r="6" fill="#015410"/>
+        <circle cx="600" cy="320" r="6" fill="#015410"/>
+        <circle cx="640" cy="350" r="6" fill="#015410"/>
+        <circle cx="680" cy="320" r="6" fill="#015410"/>
+        <circle cx="720" cy="350" r="6" fill="#015410"/>
+        <circle cx="760" cy="320" r="6" fill="#015410"/>
+        <circle cx="800" cy="350" r="6" fill="#015410"/>
+        <circle cx="840" cy="320" r="6" fill="#015410"/>
+    </g>
+    <animate href="#protein-unfolded" attributeName="opacity" from="0" to="1" begin="name_disappear.end" dur="1.5s" fill="freeze" id="chain_appears" />
+
+    <g id="protein-folded" opacity="0" transform-origin="640 320">
+        <path d="M640,280 C680,240 720,280 700,320 S620,340 640,360 C680,400 600,400 620,360 S700,260 660,300 C620,340 600,300 640,280 Z" 
+              fill="none" stroke="#3b842b" stroke-width="6" stroke-linecap="round"/>
+        <path d="M580,320 C600,300 620,340 640,320 S660,280 680,300" 
+              fill="none" stroke="#91a601" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <animate href="#protein-unfolded" attributeName="opacity" from="1" to="0" begin="chain_appears.end+1s" dur="1.5s" fill="freeze" />
+    <animate href="#protein-folded" attributeName="opacity" from="0" to="1" begin="chain_appears.end+1s" dur="1.5s" fill="freeze" />
+    <animateTransform 
+        href="#protein-folded"
+        attributeName="transform" 
+        type="scale"
+        from="0.5" to="1"
+        begin="chain_appears.end+1s"
+        dur="1.5s"
+        fill="freeze"
+        additive="sum"/>
+</svg>
