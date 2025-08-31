@@ -8,14 +8,14 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/Hamlet99?tab=repositories" target="_blank"><img alt="Code" src="https://img.shields.io/badge/-code-000000?style=flat-square&logo=Plex&logoColor=white"></a>
-    <a href="https://github.com/Hamlet99?tab=repositories&language=python" target="_blank"><img alt="python" src="https://img.shields.io/badge/-python-3776AB?style=flat-square&logo=Python&logoColor=white"></a>
-    <a href="https://github.com/Hamlet99?tab=repositories&language=TeX" target="_blank"><img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=LaTeX&logoColor=white"></a>
+    <a href="https://github.com/Hamlet99?tab=repositories" target="_blank"><img alt="Code" src="https://img.shields.io/badge/-code-000000?style=for-the-badge&logo=Plex&logoColor=white"></a>
+    <a href="https://github.com/Hamlet99?tab=repositories&language=python" target="_blank"><img alt="python" src="https://img.shields.io/badge/-python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></a>
+    <a href="https://github.com/Hamlet99?tab=repositories&language=TeX" target="_blank"><img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=for-the-badge&logo=LaTeX&logoColor=white"></a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Hamlet99?tab=followers" target="_blank"><img alt="Updates" src="https://img.shields.io/badge/--000000?style=flat-square&logo=RSS&logoColor=white"></a>
-    <a href="https://github.com/Hamlet99/Hamlet99" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/Hamlet99/Hamlet99?label=profile%20updated&style=flat-square"></a>
+    <a href="https://github.com/Hamlet99?tab=followers" target="_blank"><img alt="Updates" src="https://img.shields.io/badge/--000000?style=for-the-badge&logo=RSS&logoColor=white"></a>
+    <a href="https://github.com/Hamlet99/Hamlet99" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/Hamlet99/Hamlet99?label=profile%20updated&style=for-the-badge"></a>
 </p>
 
 <details>
