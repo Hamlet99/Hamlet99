@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/Hamlet99/Hamlet99/master/background.svg)
+![banner](https://raw.githubusercontent.com/Hamlet99/Hamlet99/master/git_banner.png)
 
 <p align="center">
     <a href="https://github.com/Hamlet99" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-@Hamlet99-181717?style=for-the-badge&logo=GitHub&logoColor=white"></a>
